@@ -21,13 +21,22 @@
     margin: 15px 20px;
     
 }
+/* .nav-items:hover{
+    color: rgb(24, 17, 224);
+} */
 .nav-items a{
     text-decoration:none;
     color:white;
     padding:0px 10px;
 }
 
+ .nav-items a:hover, ul li a:hover{
+    color: blueviolet;
+}
+.navbar:hover{
+    color:rgb(24, 17, 224);
 
+}
 
 .container, body{
     background-color: #ddd;
